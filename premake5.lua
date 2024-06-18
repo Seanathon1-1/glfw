@@ -29,6 +29,7 @@ files
     "src/null_window.c",
     "src/null_joystick.c",
 
+    "premake5.lua"
 }
 filter "system:linux"
     pic "On"
@@ -59,10 +60,7 @@ filter "system:linux"
 filter "system:windows"
     systemversion "latest"
     staticruntime "On"
-    
-    -- buildoptions{
-    --     "/MT"
-    -- }
+   
 
     files
     {
